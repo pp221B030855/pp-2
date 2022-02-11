@@ -7,5 +7,3 @@ def tl(b):
         
 b = str(input())
 tl(b)
-
-
