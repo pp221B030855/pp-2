@@ -15,4 +15,3 @@ if str(input())=='k':
         print(round(x/1024, k))          
 else:
     print(x*1024)
-
