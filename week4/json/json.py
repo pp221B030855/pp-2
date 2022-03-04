@@ -1,3 +1,1 @@
-i = 1
-while i < 2: 
-    print ("IDK")
+import json 
