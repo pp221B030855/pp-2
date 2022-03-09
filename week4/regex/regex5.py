@@ -1,4 +1,6 @@
 import re 
 s = input()
-x = re.findall(r"\w*a\w*b",s)
+ns  = r"\w*a+b\b"
+
+x = re.findall(ns,s)
 print(x)
