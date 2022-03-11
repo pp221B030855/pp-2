@@ -2,7 +2,7 @@ import re
 s = input()
 x = re.search("[A-Z]", s)
 m = x.start()
-up = s[m-1]
+up = s[m]
 up = up.lower()
 ds = "_" 
 ds = ds + up
