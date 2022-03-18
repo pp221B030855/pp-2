@@ -1,5 +1,4 @@
 import time 
-
 num = int(input())
 st = int(input())
 time.sleep(st/1000)

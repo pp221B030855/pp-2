@@ -1,5 +1,4 @@
 from string import ascii_lowercase, ascii_uppercase
-
 def counter(s, cnt1=0, cnt2=0):
     for i in ascii_uppercase: cnt1 += s.count(i)
     for i in ascii_lowercase: cnt2 += s.count(i)    
