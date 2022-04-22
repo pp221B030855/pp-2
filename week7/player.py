@@ -10,6 +10,11 @@ stop_img = pygame.image.load('stop.png').convert_alpha()
 next_img = pygame.image.load('next.png').convert_alpha()
 previous_img = pygame.image.load('previous.png').convert_alpha()
 
+start_img = pygame.transform.scale(start_img, (50, 50))
+stop_img = pygame.transform.scale(stop_img, (50, 50))
+next_img = pygame.transform.scale(next_img, (50, 50))
+previous_img = pygame.transform.scale(previous_img, (50, 50))
+
 class Button():
     def __init__(self, x, y, image):
         self.image = image 
@@ -41,7 +46,7 @@ st = 0
 ls = []
 for file in os.listdir(os.getcwd() +'\\music'):
     ls.append(file)
-pygame.mixer.music.load('music\\' + ls[0])
+    pygame.mixer.music.load('music\\' + ls[0])
 
 clicked = 1
 curr = 0
